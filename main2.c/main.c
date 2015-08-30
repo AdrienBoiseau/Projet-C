@@ -1,18 +1,10 @@
 #include<stdio.h>
-
 int main(void){
-    int adrien_age;
-    adrien_age=18;
-    
-    int total = 3 + 2;
-    
-    if(total ==  5) {
-        printf("Je suis trop fort\n");
-    }
-    
+    int adrien_age=18;
+    char lettre='a';
+    char nom[10]="testdelol";
+    nom[2]='?';
     printf("Age de la noob : %d\n",adrien_age);
-}
-
-int addition(int a, int b) {
-    return a + b;
+    printf("test %c\n",lettre);
+    printf("%s\n",nom);
 }
