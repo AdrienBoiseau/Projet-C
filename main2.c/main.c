@@ -14,7 +14,7 @@ int main(void) {
     char nom[10] = "testdelol";
     nom[2] = '?'; //Remplace la lettre numéro 2 par un "?"
     
-    printf("Age de la noob : %d\n",adrien_age);
+    printf("Age de Adrien : %d\n",adrien_age);
     printf("test %c\n",lettre);
     printf("%s\n",nom);
     
@@ -26,7 +26,7 @@ int main(void) {
     int var1=1;
 
     if(var1==1) {
-        printf("Var1 est équivalent à 1 ça marche :D\n");
+        printf("Var1 est équivalent à 1\n");
     } else {
         printf("Var1 n'est pas équivalent");
     }
