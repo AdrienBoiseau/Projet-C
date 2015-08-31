@@ -23,14 +23,30 @@ int main(void) {
      ceci
      */
     //Les conditions
-    int var1 = 1;
+    int var1=1;
 
-    if(var1 == 1) {
+    if(var1==1) {
         printf("Var1 est équivalent à 1 ça marche :D\n");
     } else {
         printf("Var1 n'est pas équivalent");
     }
-    //Fin du programme
+    // !(var1==1) Pareil que var1!=1
     
-    return 0;
+    int var2=2;
+    
+    if( !(var2==2) ){
+        printf("IF\n");
+    } else {
+        printf("ELSE\n");
+    }
+    
+    int var3=3;
+    
+    if( var3!=3 ) {
+        printf("IF\n");
+    } else {
+        printf("ELSE\n");
+    }
+    
+    //Fin du programme
 }
