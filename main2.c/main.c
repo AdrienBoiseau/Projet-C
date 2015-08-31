@@ -45,8 +45,23 @@ int main(void) {
     if( var3!=3 ) {
         printf("IF\n");
     } else {
-        printf("ELSE\n");
+        printf("\tELSE\n"); // "\t fait une tabulation
     }
+    //Conditions 2
+    int taille=10;
     
+    if( taille==10 ){
+        printf("MOYEN\n");
+    }
+    else {
+        printf("ELSE\n");
+    
+        if( taille>10 ){
+        printf("GRAND\n");
+        }else {
+        printf("PETIT\n");
+    }
+    }
     //Fin du programme
 }
+
