@@ -1,8 +1,9 @@
 #include<stdio.h>
 
-int main(void) {
-
-    //Début du programme
+int main(void)
+{
+//Début du programme
+    
     int adrien_age = 18;
     adrien_age = adrien_age + 1; //Ajoute 1 ans sur l'âge de départ
     
@@ -48,20 +49,35 @@ int main(void) {
         printf("\tELSE\n"); // "\t fait une tabulation
     }
     //Conditions 2
+    
     int taille=10;
     
     if( taille==10 ){
         printf("MOYEN\n");
     }
     else {
-        printf("ELSE\n");
-    
         if( taille>10 ){
         printf("GRAND\n");
         }else {
         printf("PETIT\n");
     }
     }
-    //Fin du programme
+    //Les boucles
+    
+    int i=0;
+    
+    while (i<=10){
+        printf ("%d\n",i);
+        i++;
+    }
+    
+    //Autre méthode
+    
+    int f;
+    
+    for(f=0;f<=10;f++){
+        printf ("%d\n",f);
+    }
+//Fin du programme
 }
 
