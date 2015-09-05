@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(void) {
-
+    
     //Début du programme
     int adrien_age = 18;
     adrien_age = adrien_age + 1; //Ajoute 1 ans sur l'âge de départ
@@ -24,7 +24,7 @@ int main(void) {
      */
     //Les conditions
     int var1=1;
-
+    
     if(var1==1) {
         printf("Var1 est équivalent à 1\n");
     } else {
@@ -55,12 +55,12 @@ int main(void) {
     }
     else {
         printf("ELSE\n");
-    
+        
         if( taille>10 ){
-        printf("GRAND\n");
+            printf("GRAND\n");
         }else {
-        printf("PETIT\n");
-    }
+            printf("PETIT\n");
+        }
     }
     //Fin du programme
 }
