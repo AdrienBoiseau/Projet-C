@@ -1,15 +1,8 @@
 #include<stdio.h>
 
-<<<<<<< HEAD
-int main(void) {
-    
-    //Début du programme
-=======
 int main(void)
 {
 //Début du programme
-    
->>>>>>> c520a7362b4a4d95413f40f4fae1e3fe725b0f74
     int adrien_age = 18;
     adrien_age = adrien_age + 1; //Ajoute 1 ans sur l'âge de départ
     
