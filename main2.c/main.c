@@ -17,11 +17,6 @@ int main(void)
     printf("Age de Adrien : %d\n",adrien_age);
     printf("test %c\n",lettre);
     printf("%s\n",nom);
-    
-    /*Long commentaire
-     utilisé
-     ceci
-     */
     //Les conditions
     int var1=1;
     
@@ -78,6 +73,17 @@ int main(void)
     
     for(f=0;f<=10;f++){
         printf ("%d\n",f);
+    }
+    
+    //Exercice pratique
+    char var='x';{
+    if (var=='a')printf("Voyelle\n");
+        else if(var=='e')printf("Voyelle\n");
+        else if(var=='i')printf("Voyelle\n");
+        else if(var=='o')printf("Voyelle\n");
+        else if(var=='u')printf("Voyelle\n");
+        else if(var=='y')printf("Voyelle\n");
+    else printf("Consonne\n");
     }
 //Fin du programme
 }
