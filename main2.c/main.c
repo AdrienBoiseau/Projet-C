@@ -2,7 +2,7 @@
 
 int main(void)
 {
-//Début du programme
+    //Début du programme
     int adrien_age = 18;
     adrien_age = adrien_age + 1; //Ajoute 1 ans sur l'âge de départ
     
@@ -76,15 +76,29 @@ int main(void)
     }
     
     //Exercice pratique
-    char var='x';{
-    if (var=='a')printf("Voyelle\n");
+    char var='p';
+    /*if (var=='a')printf("Voyelle\n");
         else if(var=='e')printf("Voyelle\n");
         else if(var=='i')printf("Voyelle\n");
         else if(var=='o')printf("Voyelle\n");
         else if(var=='u')printf("Voyelle\n");
         else if(var=='y')printf("Voyelle\n");
     else printf("Consonne\n");
+    }*/
+    
+    switch (var) {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+        case 'y':
+            printf("Voyelle\n");
+            break;
+        default:
+            printf("Consonne\n");
+            break;
     }
-//Fin du programme
+    
+    //Fin du programme
 }
-
