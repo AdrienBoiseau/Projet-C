@@ -1,10 +1,30 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 typedef enum
 {
     RETRAIT, DEPOT, DEPOTRETRAIT
 } Transaction;
+
+Transaction getType(void) {
+    char type;
+    
+    printf("Type d'operation : \n");
+    printf("0 = RETRAIT\n");
+    printf("1 = DEPOT\n");
+    printf("2 = DEPOT RETRAIT\n");
+    
+    scanf("%s", &type);
+    
+    if(type == '0') {
+        return RETRAIT;
+    } else if(type == '1') {
+        return DEPOT;
+    }
+    
+    return DEPOTRETRAIT;
+}
 
 int main (void) {
     float solde;
@@ -13,7 +33,7 @@ int main (void) {
     
     solde = 120.50;
     
-    Transaction typeOperation = DEPOTRETRAIT;
+    Transaction typeOperation = getType();
     
     somme = 35.5;
     somme2 = 12;
@@ -37,3 +57,5 @@ int main (void) {
     
     return 0;
 }
+
+
