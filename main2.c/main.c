@@ -20,11 +20,11 @@ int main (void) {
     float interet = 1.5;
     
     if (typeOperation == RETRAIT) {
-        solde=solde-somme;
+        solde = solde - somme;
         printf ("Vous avez effectué un retrait, votre solde : %f\n",solde);
     }
     else if (typeOperation == DEPOT) {
-        solde=solde+somme;
+        solde = solde + somme;
         printf ("Vous avez effectué un dépôt, votre solde : %f\n",solde);
     }
     else if (typeOperation == DEPOTRETRAIT) {
