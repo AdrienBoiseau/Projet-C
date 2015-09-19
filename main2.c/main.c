@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 typedef enum
 {
@@ -21,17 +22,17 @@ int main (void) {
     
     if (typeOperation == RETRAIT) {
         solde = solde - somme;
-        printf ("Vous avez effectué un retrait, votre solde : %f\n",solde);
+        printf ("Vous avez effectué un retrait, votre solde : %.2f\n",solde);
     }
     else if (typeOperation == DEPOT) {
         solde = solde + somme;
-        printf ("Vous avez effectué un dépôt, votre solde : %f\n",solde);
+        printf ("Vous avez effectué un dépôt, votre solde : %.2f\n",solde);
     }
     else if (typeOperation == DEPOTRETRAIT) {
         solde = (solde + somme) - somme2;
         solde = solde + ((solde/100) * interet);
         
-        printf ("Vous avez effecuté un dépôt et un retrait et votre compte à reçu un intérêt, votre solde : %f\n", solde);
+        printf ("Vous avez effecuté un dépôt et un retrait et votre compte à reçu un intérêt, votre solde : %.2f\n", solde);
     }
     
     return 0;
