@@ -4,6 +4,7 @@
 #include "main.h"
 
 int main (void) {
+    
     float solde;
     float somme;
     float somme2;
