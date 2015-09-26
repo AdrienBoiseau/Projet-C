@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7AECD3D31B930021003DAE6C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AECD3D21B930021003DAE6C /* main.c */; };
+		7AF735501BB6DD8400595AA5 /* delta.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7354E1BB6DD8400595AA5 /* delta.c */; settings = {ASSET_TAGS = (); }; };
+		7AF735531BB6DDB900595AA5 /* parc.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AF735511BB6DDB900595AA5 /* parc.c */; settings = {ASSET_TAGS = (); }; };
+		7AF735561BB6DDD000595AA5 /* annee_bissextile.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AF735541BB6DDD000595AA5 /* annee_bissextile.c */; settings = {ASSET_TAGS = (); }; };
+		7AF735591BB6DDF400595AA5 /* nombre_positif_negatif.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AF735571BB6DDF400595AA5 /* nombre_positif_negatif.c */; settings = {ASSET_TAGS = (); }; };
+		7AF7355C1BB6DE0600595AA5 /* nombre_plus_grand.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7355A1BB6DE0600595AA5 /* nombre_plus_grand.c */; settings = {ASSET_TAGS = (); }; };
+		7AF7355F1BB6DFFD00595AA5 /* banque.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7355D1BB6DFFD00595AA5 /* banque.c */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		7AECD3CF1B930021003DAE6C /* main2.c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = main2.c; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AECD3D21B930021003DAE6C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		7AF7354E1BB6DD8400595AA5 /* delta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = delta.c; sourceTree = SOURCE_ROOT; };
+		7AF7354F1BB6DD8400595AA5 /* delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delta.h; sourceTree = SOURCE_ROOT; };
+		7AF735511BB6DDB900595AA5 /* parc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parc.c; sourceTree = SOURCE_ROOT; };
+		7AF735521BB6DDB900595AA5 /* parc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parc.h; sourceTree = SOURCE_ROOT; };
+		7AF735541BB6DDD000595AA5 /* annee_bissextile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = annee_bissextile.c; sourceTree = SOURCE_ROOT; };
+		7AF735551BB6DDD000595AA5 /* annee_bissextile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annee_bissextile.h; sourceTree = SOURCE_ROOT; };
+		7AF735571BB6DDF400595AA5 /* nombre_positif_negatif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nombre_positif_negatif.c; sourceTree = SOURCE_ROOT; };
+		7AF735581BB6DDF400595AA5 /* nombre_positif_negatif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nombre_positif_negatif.h; sourceTree = SOURCE_ROOT; };
+		7AF7355A1BB6DE0600595AA5 /* nombre_plus_grand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nombre_plus_grand.c; sourceTree = SOURCE_ROOT; };
+		7AF7355B1BB6DE0600595AA5 /* nombre_plus_grand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nombre_plus_grand.h; sourceTree = SOURCE_ROOT; };
+		7AF7355D1BB6DFFD00595AA5 /* banque.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = banque.c; sourceTree = SOURCE_ROOT; };
+		7AF7355E1BB6DFFD00595AA5 /* banque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = banque.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				7AECD3D21B930021003DAE6C /* main.c */,
+				7AF7354E1BB6DD8400595AA5 /* delta.c */,
+				7AF7354F1BB6DD8400595AA5 /* delta.h */,
+				7AF735511BB6DDB900595AA5 /* parc.c */,
+				7AF735521BB6DDB900595AA5 /* parc.h */,
+				7AF735541BB6DDD000595AA5 /* annee_bissextile.c */,
+				7AF735551BB6DDD000595AA5 /* annee_bissextile.h */,
+				7AF735571BB6DDF400595AA5 /* nombre_positif_negatif.c */,
+				7AF735581BB6DDF400595AA5 /* nombre_positif_negatif.h */,
+				7AF7355A1BB6DE0600595AA5 /* nombre_plus_grand.c */,
+				7AF7355B1BB6DE0600595AA5 /* nombre_plus_grand.h */,
+				7AF7355D1BB6DFFD00595AA5 /* banque.c */,
+				7AF7355E1BB6DFFD00595AA5 /* banque.h */,
 			);
 			path = main2.c;
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF735501BB6DD8400595AA5 /* delta.c in Sources */,
+				7AF735561BB6DDD000595AA5 /* annee_bissextile.c in Sources */,
+				7AF735531BB6DDB900595AA5 /* parc.c in Sources */,
+				7AF7355C1BB6DE0600595AA5 /* nombre_plus_grand.c in Sources */,
+				7AF735591BB6DDF400595AA5 /* nombre_positif_negatif.c in Sources */,
 				7AECD3D31B930021003DAE6C /* main.c in Sources */,
+				7AF7355F1BB6DFFD00595AA5 /* banque.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
